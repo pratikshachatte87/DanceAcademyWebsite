@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Satisfy&display=swap');
+/* hero background image */
+.bgimage {
+    height:100vh;
+    max-width: 100%;
+    /* background: url('images/bharatntaym.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)),url(./images/bharatntaym.jpg);
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 90%;
+    height: 50vh;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* academy name  */
+.navbar-brand {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+   font-size: 3.25rem !important;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left:0rem ;
+}
+.brand{
+    font-size: 3.25rem;
+}
+
+@media screen and (max-width: 768px){
+section{
+    margin-top: 5px !important;
+}
+}
+
+/* navbar style */
+.nav-link:active{
+    color: blue !important;
+}
+
+ .nav-link{
+   
+    color: white !important;
+  
+} 
+.nav-link:hover{
+    color:black !important;
+    
+    background-color:white;
+    border-radius:50px ;
+
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+
+/* .navbar-toggler-icon{ */
+    /* background-color:whitesmoke; */
+/* } */
+/* for getstartedbuttonn */
+.btn_get_started{
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius:50px ;
+    margin: 10px;
+    border:2px solid #fff ;
+    background-color: transparent;
+    color:#fff;
+   
+    text-decoration: none;
+
+    
+}
+.btn_get_started:hover{
+    background-color:orange;
+    border:2px solid #fff;
+    color:black;
+}
+
+    .started{
+        font-family: 'Poppins',sans-serif;
+        text-transform: uppercase;
+        
+        font-size: 14px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius:40px ;
+        margin: 10px;
+        border:1px solid #fff ;
+        background-color: transparent;
+        color:#fff;
+        transition: 0.5s all;
+        text-decoration: none;
+    }
+    button a{
+        text-decoration: none;
+    }
+    /* button:hover{
+        background-color: orange;
+    }
+     */
+    .anchor{
+        text-decoration: none;
+        color: yellow;
+    }
+
+    /* .navbar-toggler{ */
+        /* color: white !important; */
+        /* background-color: antiquewhite !important; */
+    /* } */
+
+
+/* about section */
+
+.space{
+    margin-top: 20px !important;
+}
+.btnsuccess{
+    margin-left: 140px;
+}
+
+.im{
+    height: 30vh;
+    width: 50% !important;
+    margin-top: 30px;
+}
+
+
+
+
+/* event section */
+.bt-style{
+    display: block;
+  margin-left: 140px;
+  min-height: 25px;
+  padding: 10px 24px;
+  font-family: 'Lucida Grande', 'Helvetica', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  color: white;
+  
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-position: top center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transition-property: background, color;
+    
+}
+
+.button1{
+
+    position: relative;
+  /* color: var(--textColor2); */
+  color: white;
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 26px;
+    background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+    background-size: 500%;
+    background-position: 0% 0%;
+    filter: blur(10px);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.2s;
+  }
+  
+  &:hover {
+    animation: gradientRotate 2s infinite;
+    &::before {
+      opacity: 1;
+      animation: gradientRotate 2s infinite;
+    }
+  }
+  
+  &:active {
+    color: #c3c4d5;
+  }
+  
+  &:focus {
+    &::before {
+      opacity: 1;
+    }
+  }
+
+}
+@keyframes gradientRotate {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  /* events name only */
+.ev{
+
+font-family: 'Caveat', cursive;
+font-size: 35px;
+  }
+  .evr{
+    margin-top: 20px;
+  }
+
+  /* .card-body{ */
+    /* height: 50vh !important; */
+  /* } */
+
+ @media (max-width: 600px) {
+   .navbar-toggler-icon {
+     display: block;
+   }
+ } 
+  
+  
+  
+ 
+
+  
+  
+  
+
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+  
+  
+  
+ 

@@ -1,0 +1,147 @@
+/* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+/* Set font of all elements to 'Roboto' */
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+    color: white;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+	outline: 0;
+}
+
+body {
+	background: #263238;  /* Set background color to #263238*/
+}
+
+h3 {
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/* adding the styles to write to us  */
+.top{
+    margin-left: 151px;
+    margin-right: 151px;
+    margin-top: 50px;
+    margin-bottom: -24px;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    color: red;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+@media screen and (max-width: 600px) {
+	.top {
+	  margin-left: 127px;
+	  margin-right: 95px;
+	  
+	}
+  }
+
+@media screen and (max-width: 600px) {
+	.container {
+	  margin-left: 14% !important;
+	  margin-right: 20%;
+	 
+	  
+	}
+  }
+  
+
+/* Add styles to 'container' class */
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 30px 12px;
+	background: transparent;
+	border-radius: 4px;
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border-bottom:2px solid white !important;
+    border: none;
+    background-color: transparent;
+   position: relative;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	font-size: 15px;
+    
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid white;
+	
+    
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: red;
+	margin-top: 30px;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* add style for checkbox content */
+input.Checkbox {
+	width: 40px;
+	height: 40px;
+	padding: 40px;
+}
+
+
+
+.ch{
+	margin-left: 2px;
+	color: yellow;
+}
+
+
+
+
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+
